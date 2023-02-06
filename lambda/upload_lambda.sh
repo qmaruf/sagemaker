@@ -1,0 +1,1 @@
+python upload_lambda.py --function_name lambda_func --handler_name response --role arn:aws:iam::456891521041:role/dev_maruf_lambda_test   

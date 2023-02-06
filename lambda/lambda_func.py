@@ -1,10 +1,11 @@
 def response(event, context):
     response  = {
         "statusCode": 200,
-        "body": None
+        "body": "ping from lambda"
     }
-    if event["message"] == "ping":
-        response["body"] = "pong"
-    else:
-        response["body"] = "Unknown message"
     return response
+    # if event["message"] == "ping":
+    #     response["body"] = "pong"
+    # else:
+    #     response["body"] = "Unknown message"
+    # return response
